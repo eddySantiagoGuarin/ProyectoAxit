@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/*------------------------------------ DIV1 ---------------------------------------*/
+
+.div1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:5% 10%;
+    background-image: url(../images/banner-bk.jpg);
+}
+
+
+nav img {
+    width:7%;
+    height: auto;
+}
+
+.div1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.div1 nav p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.div1_1 {
+    width: 50%;
+    height: auto;  
+}
+
+.div1_1 h1 {
+    color: white;
+    padding: 5% 0;
+    font-size: 70px;
+}
+
+
+.div1_1 p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.botonDiv1 {
+    width: 23%;
+    height: 14%;
+    margin-top: 5%;
+    background-color: #00ffae;
+    color: #003b38;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
+/*------------------------------------ DIV2 ---------------------------------------*/
+
+.div2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 10%;
+   
+}
+
+.div2 h1 {
+    color: #282a39;
+    padding-bottom: 3%;
+    font-size: 40px;
+}
+
+.div2_1{
+    display: flex;
+    gap: 10%;
+}
+
+.div_2_1_cajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    text-align: center;
+}
+
+/*------------------------------------ DIV3 ---------------------------------------*/
+.div3{
+ background: linear-gradient(150deg, white 50%, #00ffad 50%);  
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 7% 10%;
+}
+
+
+.div3_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.div3_1_1{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.botonLearn{
+    width: 30%;
+    height: 14%;
+    margin-top: 5%;
+    background-color:#192440;
+    color: #ffffff;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
+
+/*------------------------------------ DIV4 ---------------------------------------*/
+.div4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 10%;
+   
+}
+
+.div4_1 ul{
+    list-style-type: none;
+}
+
+.div4_1{
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.div4_1_cajas13 {
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    flex: 1;
+    color:#282a39;
+}
+
+.div4_1_cajas13 span {
+    font-size: 5em;
+}
+.div4_1_cajas2 {
+    width: 640px;
+    height: 60vh;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #192440;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    flex: 1;
+    color:#ffffff;
+}
+
+.div4_1_cajas2 span {
+    font-size: 5em;
+}
+
+.botonGet{
+    width: 60%;
+    height: 14%;
+    margin-top: 5%;
+    margin-bottom: 30px ;
+    background-color: #e7e7e7;
+    color:#192440;
+    border: 3px solid #192440;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+.botonGet1{
+    width: 60%;
+    height: 14%;
+    margin-top: 5%;
+    margin-bottom: 30px ;
+    background-color: #00ffae;
+    border: none;
+    color:#192440;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
+
+/*------------------------------------ DIV5 ---------------------------------------*/
+.div5{
+    background-color: #c0bcbc;
+    padding: 60px 25px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+/*------------------------------------ DIV6 ---------------------------------------*/
+
+.div6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/contact-bk.jpg);
+    background-size: cover;
+    background-attachment: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------------ FOOTER ---------------------------------------*/
