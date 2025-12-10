@@ -19,16 +19,17 @@ body {
 
 .div1 {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding:5% 10%;
+    padding: 5% 10%;
     background-image: url(../images/banner-bk.jpg);
+    background-repeat: no-repeat;
 }
 
 
 nav img {
-    width:7%;
+    width: 7%;
     height: auto;
 }
 
@@ -47,7 +48,7 @@ nav img {
 
 .div1_1 {
     width: 50%;
-    height: auto;  
+    height: auto;
 }
 
 .div1_1 h1 {
@@ -86,7 +87,7 @@ nav img {
     justify-content: center;
     align-items: center;
     padding: 7% 10%;
-   
+
 }
 
 .div2 h1 {
@@ -95,7 +96,7 @@ nav img {
     font-size: 40px;
 }
 
-.div2_1{
+.div2_1 {
     display: flex;
     gap: 10%;
 }
@@ -110,8 +111,8 @@ nav img {
 }
 
 /*------------------------------------ DIV3 ---------------------------------------*/
-.div3{
- background: linear-gradient(150deg, white 50%, #00ffad 50%);  
+.div3 {
+    background: linear-gradient(150deg, white 50%, #00ffad 50%);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -119,24 +120,24 @@ nav img {
 }
 
 
-.div3_1{
+.div3_1, .div3_2 {
     display: flex;
     justify-content: space-between;
     gap: 5%;
     margin-top: 5%;
 }
 
-.div3_1_1{
+.div3_1_1 {
     display: flex;
     flex-direction: column;
     gap: 2%;
 }
 
-.botonLearn{
+.botonLearn {
     width: 30%;
     height: 14%;
     margin-top: 5%;
-    background-color:#192440;
+    background-color: #192440;
     color: #ffffff;
     border: none;
     justify-content: center;
@@ -155,14 +156,14 @@ nav img {
     justify-content: center;
     align-items: center;
     padding: 7% 10%;
-   
+
 }
 
-.div4_1 ul{
+.div4_1 ul {
     list-style-type: none;
 }
 
-.div4_1{
+.div4_1 {
     display: flex;
     gap: 5%;
     margin-top: 5%;
@@ -176,12 +177,13 @@ nav img {
     flex-direction: column;
     gap: 10%;
     flex: 1;
-    color:#282a39;
+    color: #282a39;
 }
 
 .div4_1_cajas13 span {
     font-size: 5em;
 }
+
 .div4_1_cajas2 {
     width: 640px;
     height: 60vh;
@@ -193,34 +195,35 @@ nav img {
     flex-direction: column;
     gap: 10%;
     flex: 1;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .div4_1_cajas2 span {
     font-size: 5em;
 }
 
-.botonGet{
+.botonGet {
     width: 60%;
     height: 14%;
     margin-top: 5%;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
     background-color: #e7e7e7;
-    color:#192440;
+    color: #192440;
     border: 3px solid #192440;
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
     border-radius: 35px;
 }
-.botonGet1{
+
+.botonGet1 {
     width: 60%;
     height: 14%;
     margin-top: 5%;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
     background-color: #00ffae;
     border: none;
-    color:#192440;
+    color: #192440;
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
@@ -229,25 +232,215 @@ nav img {
 
 
 /*------------------------------------ DIV5 ---------------------------------------*/
-.div5{
+.div5 {
     background-color: #c0bcbc;
     padding: 60px 25px;
     display: flex;
     justify-content: space-around;
-   
+
 }
 
 /*------------------------------------ DIV6 ---------------------------------------*/
 
-.div6{
+.div6 {
     width: 100%;
     height: 100vh;
     background-image: url(../images/contact-bk.jpg);
     background-size: cover;
     background-attachment: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
+.div6_1 {
+    color: white;
+    width: 40%;
+}
+
+.div6_1 h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.div6_1 p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+
+.formDiv6 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divprincipalformDiv6 {
+    display: flex;
+    gap: 30px;
+}
+
+.divformDiv6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.formDiv6 label {
+    color: #00ffad;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.divformDiv6 input {
+    width: 250px;
+}
+
+.formDiv6 textarea {
+    height: 150px;
+    resize: none;
+}
+
+.formDiv6 input,
+.formDiv6 textarea {
+    border: 2px solid #00ffad;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.botonSubmit {
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    background-color: #00ffad;
+    color: #003b38;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 35px;
+    font-size: 1rem;
+}
+
 /*------------------------------------ FOOTER ---------------------------------------*/
+
+footer {
+    height: 120px;
+    padding: 0 30px;
+    background-color: #192440;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*------------------------------------ MEDIA QUERIES ---------------------------------------*/
+
+@media (max-width: 1279px) {
+    .div4_1_cajas2 {
+        height: 80vh;
+
+    }
+}
+
+@media (max-width: 920px) {
+    body {
+        background-color: rgb(0, 255, 42);
+
+    }
+
+    .div1_1 {
+        width: 90%;
+        height: auto;
+    }
+    
+    .div3_1 img , .div3_2 img {
+        width: 50%;
+        height: auto;
+    }
+
+    .botonLearn {
+        width: 50%;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+    }
+    
+    .div4_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divformDiv6 input {
+        width: 150px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(174, 0, 255);
+    }
+    
+    .div2 h1 {
+        color: #282a39;
+        padding-bottom: 3%;
+        font-size: 30px;
+    }
+    
+    .div4_1_cajas2 {
+        width: 100vw;
+        height: 60vh;
+    }
+    .div4_1_cajas13 {
+        background-color: #5865aa;
+    }
+
+    .div5 img {
+        overflow: hidden;
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(119, 8, 36);
+    }
+
+
+    .div2_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div3_1 ,.div3_2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .div3_1{
+       flex-direction: column;
+    }
+    .div3_2 {
+       flex-direction: column-reverse;
+    }
+    .div3_1 img, .div3_2 img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .div6{
+        height: 80%;
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 10px;
+    }
+
+    .div6_1, .formDiv6 {
+        width: 90%;
+    }
+}
